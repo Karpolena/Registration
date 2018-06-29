@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600,700,800,900");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.registration {
+  margin: 0px auto;
+  background-image: url(./images/dubai-city-in-the-clouds-February-2016.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.window {
+  width: 60%;
+  height: 60%;
+  background-color: #ffffff;
+  opacity: 0.5;
+  box-shadow: 0px 10px 100px 0px rgba(0, 83, 170, 0.56); }
+  .window h1 {
+    text-align: center;
+    font-weight: 400;
+    margin: 50px 0px 150px;
+    color: #033f80;
+    font-family: "Raleway", sans-serif; }
+  .window .header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-image: url(./images/dubai-international-airport-logo.png);
+    background-position: 30px;
+    background-size: 100px;
+    background-repeat: no-repeat; }
+    .window .header .link__item {
+      display: inline-block;
+      text-decoration: none;
+      margin: 10px;
+      color: #1c81c5;
+      font-weight: 400; }
+      .window .header .link__item:hover {
+        color: #033f80; }
+  .window .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .window .content .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center; }
+      .window .content .form__item {
+        margin: 10px;
+        width: 300px;
+        height: 45px;
+        border: none;
+        font-family: "Raleway", sans-serif;
+        padding: 0px 10px; }
+      .window .content .form__button {
+        margin-top: 30px; }
+      .window .content .form .button {
+        width: 230px;
+        height: 45px;
+        background-color: #1c81c5;
+        border-radius: 25px;
+        border: none;
+        font-family: "Raleway", sans-serif;
+        color: #ffffff;
+        font-weight: 600; }
+    .window .content__blue {
+      color: #1c81c5; }
